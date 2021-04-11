@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0%;
+}
+.top{
+    background-image: url(imagens/bg-3.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    border:solid transparent;
+    background-repeat: no-repeat;    
+}
+.top nav ul{
+    text-align: right;
+    margin: 20px 30px 0 0;
+}
+.top nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-right: 10px;
+
+}
+.top nav li:hover{
+    background: rgba(0, 0, 0, 0.5);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 13px;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.top-content{
+    
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+.top-content h1{
+    margin-top: 250px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 2px #333;
+    text-align: center;
+}
+.top-content p{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-bottom: solid;
+    display: inline-block;
+    
+}
+main{
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+
+}
+.card p{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin: 0%;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.card-1,.card-2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+    display: block;
+}
+    
+.content-section2{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+    .bottom h2{
+    background-color: #ccc ;
+    border-bottom: solid;
+    padding: 5px;
+    border-color: #7c7c7c;
+}
+footer{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    background-color: #7c7c7c;
+    padding: 15px;
+    margin-top: 15px;
+}
